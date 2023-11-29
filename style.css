@@ -1,0 +1,20 @@
+/* generic class */
+.myborder{
+    border: 2px solid red;
+}
+
+.no_decoration{
+    text-decoration: none;
+    color: grey;
+}
+
+/* body  */
+body{
+    font-family: Nova Square, Rajdhani;
+}
+
+/* navbar */
+.logo{
+    width: 30px;
+}
+
