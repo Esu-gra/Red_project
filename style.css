@@ -1,6 +1,6 @@
 /* generic class */
 .myborder{
-    border: 5px solid white;
+    border: 5px solid rgb(189, 44, 44);
     
 
 }
@@ -17,6 +17,11 @@
     color: grey;
 }
 
+
+.height-60{
+    height: 60vh;
+
+}
 /* body  */
 body{
     font-family: 'Nova Square', sans-serif;
@@ -73,10 +78,38 @@ h1{
     
 }
 
+/*section uno*/
+
+.borderbottom
+{
+    border-bottom: 2px solid darkred;
+    
+
+
+
+}
+
+
+
+.borderbottom::after {
+content:'';
+width: 20px;
+height: 20px;
+border: 2px solid darkred;
+background-color: white;
+position: absolute;
+border-radius: 20px;
+bottom: -9px;
+left: 100px;
 
 
 
 
+}
 
 
-
+.s1-custom{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around; 
+}
