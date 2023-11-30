@@ -1,6 +1,15 @@
 /* generic class */
 .myborder{
-    border: 2px solid red;
+    border: 5px solid white;
+    
+
+}
+
+
+.text-darkred{
+
+    color: darkred;
+
 }
 
 .no_decoration{
@@ -10,11 +19,64 @@
 
 /* body  */
 body{
-    font-family: Nova Square, Rajdhani;
+    font-family: 'Nova Square', sans-serif;
 }
 
 /* navbar */
+
+.nav-fixed{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+
 .logo{
     width: 30px;
 }
+
+/*header*/
+
+.bg-hero{
+    /*background-image:url("./media/switzerland-862870_1920\ \(1\).jpg") ;*/
+    
+    background-size: cover ;
+    z-index: 0;
+    background: linear-gradient(0deg, rgba(219,218,233,1) 0%, rgba(255,255,255,0.5144651610644257) 0%, rgba(165,166,166,1) 100%), url("./media/switzerland-862870_1920\ \(1\).jpg");
+    
+}
+
+
+.title{
+
+  color: darkred;
+  
+}
+
+
+.p-relative{ 
+    position: relative;
+
+}
+
+
+.p-absolute{
+    position: absolute;
+}
+
+
+h1{
+    top: 48%;
+    left: 33%;
+    color: darkred;
+    /*background: linear-gradient(0deg, rgba(219,218,233,1) 0%, rgba(255,255,255,0.5144651610644257) 0%, rgba(165,166,166,1) 100%);*/
+    
+}
+
+
+
+
+
+
+
 
