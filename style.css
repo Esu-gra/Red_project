@@ -1,6 +1,15 @@
 /* generic class */
 .myborder{
-    border: 2px solid red;
+    border: 5px solid rgb(189, 44, 44);
+    
+
+}
+
+
+.text-darkred{
+
+    color: darkred;
+
 }
 
 .no_decoration{
@@ -8,12 +17,103 @@
     color: grey;
 }
 
+
+.height-60{
+    height: 60vh;
+
+}
 /* body  */
 body{
     font-family: 'Nova Square', sans-serif;
 }
 
 /* navbar */
+
+.nav-fixed{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+
 .logo{
     width: 30px;
+<<<<<<< HEAD
 }
+=======
+}
+
+/*header*/
+
+.bg-hero{
+    /*background-image:url("./media/switzerland-862870_1920\ \(1\).jpg") ;*/
+    
+    background-size: cover ;
+    z-index: 0;
+    background: linear-gradient(0deg, rgba(219,218,233,1) 0%, rgba(255,255,255,0.5144651610644257) 0%, rgba(165,166,166,1) 100%), url("./media/switzerland-862870_1920\ \(1\).jpg");
+    
+}
+
+
+.title{
+
+  color: darkred;
+  
+}
+
+
+.p-relative{ 
+    position: relative;
+
+}
+
+
+.p-absolute{
+    position: absolute;
+}
+
+
+h1{
+    top: 48%;
+    left: 33%;
+    color: darkred;
+    /*background: linear-gradient(0deg, rgba(219,218,233,1) 0%, rgba(255,255,255,0.5144651610644257) 0%, rgba(165,166,166,1) 100%);*/
+    
+}
+
+/*section uno*/
+
+.borderbottom
+{
+    border-bottom: 2px solid darkred;
+    
+
+
+
+}
+
+
+
+.borderbottom::after {
+content:'';
+width: 20px;
+height: 20px;
+border: 2px solid darkred;
+background-color: white;
+position: absolute;
+border-radius: 20px;
+bottom: -9px;
+left: 100px;
+
+
+
+
+}
+
+
+.s1-custom{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around; 
+}
+>>>>>>> feae6e342fd29706725c5b73bc9ec01017296711
