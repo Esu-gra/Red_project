@@ -10,11 +10,10 @@
 
 /* body  */
 body{
-    font-family: Nova Square, Rajdhani;
+    font-family: 'Nova Square', sans-serif;
 }
 
 /* navbar */
 .logo{
     width: 30px;
 }
-
