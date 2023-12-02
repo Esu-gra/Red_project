@@ -1,119 +1,116 @@
+:root {
+    --primary-text: darkred;
+    --secondary-text: black;
+    --light-text: rgb(164, 164, 164);
+}
+
 /* generic class */
-.myborder{
+.myborder {
     border: 5px solid rgb(189, 44, 44);
-    
+
 
 }
 
+.text-darkred {
 
-.text-darkred{
+    color: var(--primary-text);
 
-    color: darkred;
+}
+.text-grey {
+    color: var(--light-text);
 
 }
 
-.no_decoration{
+.no_decoration {
     text-decoration: none;
-    color: grey;
 }
 
+.height-80 {
+    height: 80vh;
 
-.height-60{
+}
+
+.height-60 {
     height: 60vh;
 
 }
+
 /* body  */
-body{
+body {
     font-family: 'Nova Square', sans-serif;
 }
 
 /* navbar */
 
-.nav-fixed{
+.nav-fixed {
     z-index: 1;
-    position: fixed;
     width: 100%;
 }
 
 
-.logo{
+.logo {
     width: 30px;
-<<<<<<< HEAD
-}
-=======
 }
 
 /*header*/
-
-.bg-hero{
-    /*background-image:url("./media/switzerland-862870_1920\ \(1\).jpg") ;*/
-    
-    background-size: cover ;
+.bg-hero {
     z-index: 0;
-    background: linear-gradient(0deg, rgba(219,218,233,1) 0%, rgba(255,255,255,0.5144651610644257) 0%, rgba(165,166,166,1) 100%), url("./media/switzerland-862870_1920\ \(1\).jpg");
-    
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 1) 100%), url("./media/switzerland-862870_1920\ \(1\).jpg");
+    background-size: cover;
 }
 
-
-.title{
-
-  color: darkred;
-  
-}
-
-
-.p-relative{ 
+.p-relative {
     position: relative;
 
 }
 
-
-.p-absolute{
+.p-absolute {
     position: absolute;
 }
 
-
-h1{
+h1 {
     top: 48%;
     left: 33%;
-    color: darkred;
-    /*background: linear-gradient(0deg, rgba(219,218,233,1) 0%, rgba(255,255,255,0.5144651610644257) 0%, rgba(165,166,166,1) 100%);*/
-    
+    color: var(--primary-text);
 }
 
-/*section uno*/
+/*section 1*/
 
-.borderbottom
-{
+.borderbottom {
     border-bottom: 2px solid darkred;
-    
-
-
-
 }
-
-
 
 .borderbottom::after {
-content:'';
-width: 20px;
-height: 20px;
-border: 2px solid darkred;
-background-color: white;
-position: absolute;
-border-radius: 20px;
-bottom: -9px;
-left: 100px;
-
-
-
-
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid darkred;
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    bottom: -9px;
+    left: 100px;
 }
 
-
-.s1-custom{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around; 
+.s1-custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
->>>>>>> feae6e342fd29706725c5b73bc9ec01017296711
+
+/*section 2*/
+.bg_s2 {
+    background: rgb(219, 218, 233);
+    background: linear-gradient(180deg, rgba(219, 218, 233, 1) 0%, rgba(255, 255, 255, 0.5144651610644257) 0%, rgb(222, 223, 223) 100%);
+}
+
+.img-custom {
+    position: absolute;
+    bottom: 0px;
+}
+
+.btn-s2{
+    background-color: var(--primary-text);
+    padding: 15px 25px;
+
+}
